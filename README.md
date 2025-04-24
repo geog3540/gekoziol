@@ -1,3 +1,4 @@
 # gekoziol
-This is my Geovisualzation portfolio.
-GEOG3540/gekoziol - Grace Koziol
+This is my Geovisualization portfolio.
+
+GEOG3540 - Grace Koziol
