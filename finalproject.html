@@ -1,0 +1,87 @@
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Grace's Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Grace Koziol's Geovisualization Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="images/CollegeResume.pdf">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:grace-koziol@uiowa.edu">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Page Heading -->
+      <h1 class="my-4">Final Project
+        <small>GEOG:3540</small>
+      </h1>
+
+      <div class="row">
+			<div class="col-lg-4 col-sm-6 portfolio-item">
+			<img class="card-img-top" src="images/HVI.png" alt="">
+			</div>
+			<a href="https://storymaps.arcgis.com/stories/de8a1d6bc0ef40cbad046bda6e5cb5ff" target="_blank">Click here to view</a>
+			<p class-"card-text">For our final project, we identified and mapped urban heat islands in Portland, Oregon. Our motivation was the June 2021 heat dome, which exacerbated the urban heat island effect. Exploration of this issue will raise awareness of where heat vulnerable populations exist, encourage climate action and innovation, and promote climate resilience. Specifically, we aim to communicate directly with policymakers who hold the political power and resources necessary to mitigate the issue.
+			<p class-"card-text"> The first set of maps, showing impervious surface cover, tree canopy, elevation, population density, poverty rates, and vulnerable age populations, display the environmental and social variables that drive heat risk. By visualizing each variable independently using a consistent orange-red color scheme, users can understand how each factor varies spatially and contributes to overall vulnerability.</p>
+			<p class-"card-text"> These variables were then combined into a composite Heat Vulnerability Index (HVI) raster. This composite visualization reveals where environmental exposure and social sensitivity overlap, allowing us to pinpoint high-risk zones across the city. </p>
+			<p class-"card-text"> To further assess risk, we conducted a proximity analysis comparing high HVI areas to access to green spaces. We referenced a study by Zhang et al. (2024), which identified the average Park Cooling Distance (PCD)—the distance within which parks have a measurable cooling effect—as 277 meters. Using this threshold, we calculated how many high-risk areas in Portland fall outside the reach of nearby parks. This visualization offers a way to identify underserved neighborhoods and determine where to invest in green infrastructure. </p>
+			<p class-"card-text"> To reinforce the visual patterns in our HVI map, we conducted a hot spot analysis, which identified statistically significant clusters of vulnerability. This analysis confirms that the areas highlighted in our maps as high risk are backed by a statistically robust count of raster pixels. When users hover over the bars, they can view the exact number of pixels per vulnerability class. </p>
+			<p class-"card-text"> We brought all of these components together in an ArcGIS StoryMap, our final deliverable. The StoryMap format was chosen for its clarity and interactivity. It allows us to combine text, maps, and graphics into a cohesive, user-friendly site. Through this platform, we can explain our methods, present data, and convey the urgency of urban heat adaptation in a way that is accessible to the public.</p>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Grace Koziol 2025</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
+
